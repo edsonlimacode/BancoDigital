@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Banco Digital</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="generic_error">Ocorreu um erro inesperado, tente novamente mais tarde</string>
+
+    <string name="account_not_registered_register_fragment">Nenhuma conta encontrada com este e-mail.</string>
+    <string name="invalid_email_register_fragment">Insira um e-mail válido.</string>
+    <string name="invalid_password_register_fragment">Senha inválida, tente novamente.</string>
+    <string name="email_in_use_register_fragment">Este e-mail já está em uso.</string>
+    <string name="strong_password_register_fragment">Insira uma senha mais forte.</string>
+    <string name="invalid_credentials">E-mail/ou senha inválido</string>
+
+    <!--bottom sheet-->
+    <string name="bottom_sheet_title">Atenção</string>
+    <string name="bottom_sheet_title_message">Mensagem</string>
+    <string name="bottom_sheet_title_btn">Entendi</string>
+
+    <!--formularios-->
+    <string name="email_hint_title">E-mail</string>
+    <string name="password_hint_title">Senha</string>
+    <string name="btn_title_login">Entrar</string>
+    <string name="forgot_password_title">Esqueci a senha</string>
+    <string name="new_account_title">Cadastre-se</string>
+    <string name="recorver_account_title">Recuperar</string>
+    <string name="name_hint_title">Nome</string>
+    <string name="phone_hint_title">Telefone</string>
+    <string name="btn_create_account_title">Cadastrar</string>
+    <string name="splas_description">tela de inicio</string>
+
+    <!--moeada -->
+    <string name="currency_simble">R$ %1$s</string>
+    <string name="btn_update_profile_title">Atualizar</string>
+</resources>

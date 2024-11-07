@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BancoDigital" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">@color/purple_900</item>
+        <item name="android:navigationBarColor">@color/purple_900</item>
+        <item name="android:windowBackground">@color/purple_900</item>
+
+    </style>
+
+    <style name="EditTextCustom" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/bg_edit</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableTint">@color/purple_900</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColorHint">@color/purple_500</item>
+    </style>
+
+    <style name="Theme.BancoDigital" parent="Base.Theme.BancoDigital" />
+
+    <style name="SimpleSearchViewStyle">
+        <item name="iconsTint">@color/white</item>
+        <item name="android:hint">@string/search_hint</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="searchBackground">@drawable/bg_search</item>
+        <item name="backIconTint">@color/white</item>
+        <item name="hintColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlActivedDark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+</resources>
